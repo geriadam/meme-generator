@@ -1,32 +1,54 @@
-.App {
-  text-align: center;
+header {
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.meme-form {
+    margin-bottom: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[type="text"] {
+    padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+    padding: 10px;
+    background-color: #f73;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.meme img {
+    position: absolute;
+    margin-top: 8px;
+    width: 40%;
+}
+
+.meme .top {
+    position: relative;
+    z-index: 12;
+    font-size: 34pt;
+    left: 38px;
+    color: crimson;
+    text-shadow:
+    1px 1px 0 #CCC,
+    2px 2px 0 #CCC, /* end of 2 level deep grey shadow */
+    3px 3px 0 #444,
+    4px 4px 0 #444,
+    5px 5px 0 #444,
+    6px 6px 0 #444; /* end of 4 level deep dark shadow */
+}
+
+.meme .bottom {
+    position: relative;
+    z-index: 12;
+    font-size: 34pt;
+    left: 38px;
+    top: 300px;
+    color: crimson;
+    text-shadow:
+    1px 1px 0 #CCC,
+    2px 2px 0 #CCC, /* end of 2 level deep grey shadow */
+    3px 3px 0 #444,
+    4px 4px 0 #444,
+    5px 5px 0 #444,
+    6px 6px 0 #444; /* end of 4 level deep dark shadow */
 }
